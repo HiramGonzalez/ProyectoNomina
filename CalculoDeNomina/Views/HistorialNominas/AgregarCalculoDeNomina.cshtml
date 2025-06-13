@@ -1,0 +1,37 @@
+﻿@model CalculoDeNomina.Models.CalculosDeNomina
+@{
+    ViewBag.Title = "Agregar Cálculo de Nomina";
+}
+
+<h2>Agregar nuevo cálculo de nómina</h2>
+
+<div class="text-center border-5">
+    <form class="form-check-inline" action="AgregarCalculoNomina" method="post" enctype="multipart/form-data">
+        <div class="my-4">
+            <div class="form-group text-start">
+                <label class="control-label">Nombre del cálculo:</label>
+                <input class="form-control" type="text" name="nombreCalculo" value="" />
+                @if (ViewBag.ErrorNombreNomina)
+                {
+                    <p class="text-danger">El cálculo debe tener un nombre de al menos 1 cracter y de un máximo de 150.</p>
+                }
+            </div>
+
+            <div class="form-group text-start">
+                <label class="control-label">Cargar archivo Excel de la nómina:</label>
+                <input class="form-control btn-link" asp-for="archivo" name="archivo" type="file" accept=".xlsx" value="Subir archivo" />
+            </div>
+        </div>
+        
+
+
+        <div class="mt-4">
+            <a class="btn btn-secondary" href="@Url.Action("HistorialNominas")">Volver</a>
+
+            <button class="btn btn-success" type="submit">Agregar registro</button>
+        </div>
+
+    </form>
+</div>
+
+

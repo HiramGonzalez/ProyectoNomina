@@ -1,0 +1,60 @@
+﻿@model CalculoDeNomina.Models.CalculosDeNomina
+@{
+    ViewBag.Title = Model.NombreCalculo;
+}
+
+
+
+
+<h2>@Model.NombreCalculo</h2>
+
+
+<div>
+    <form action="../ActualizarNomina" method="post" enctype="multipart/form-data">
+        <input type="hidden" name="id" value="@Model.ID" />
+        <table class="table align-items-center">
+            <tr>
+                <td><p>Fecha del cálculo</p></td>
+                <td><p>@Model.FechaCalculo</p></td>
+            </tr>
+            <tr>
+                <td><p>Status</p></td>
+                <td>
+                    @if (Model.Estado)
+                    {
+                        <p>Procesado</p>
+                    }
+                    else
+                    {
+                        <p>En proceso</p>
+                    }
+                </td>
+            </tr>
+            <tr>
+                <td><p>Cantidad de filas de la nómina</p></td>
+                <td>
+                    <p>@(Model.FilasAfectadas != null ? @Model.FilasAfectadas : 0) filas</p>
+                </td>
+            </tr>
+
+            <tr>
+                <td><p>Archivo Excel</p></td>
+                <td><input class="btn-link" asp-for="archivo" name="archivo" type="file" accept=".xlsx" value="Subir archivo"></td>
+            </tr>
+        </table>
+
+
+
+        @if (Model.ArchivoNomina != null)
+        {
+            <h4>Contenido del archivo</h4>
+            <div>@Html.Raw(ViewBag.TablaExcel)</div>
+        }
+
+        <div class="flex-row-reverse">
+            <a class="col-1 btn btn-secondary" href="@Url.Action("HistorialNominas")">Volver</a>
+
+            <button class="col-1 btn btn-success" type="submit">Guardar</button>
+        </div>
+    </form>
+</div>

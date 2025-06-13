@@ -1,0 +1,54 @@
+﻿@{
+    ViewBag.Title = "Historial de Nóminas";
+}
+
+@model IEnumerable<CalculoDeNomina.Models.CalculosDeNomina>
+
+<h2>Historial de cálculos de nómina</h2>
+
+
+<div class="mx-auto">
+
+    <div class="flex-row my-4">
+        <a class="btn btn-secondary" href="@Url.Action("VolverAlMenu")">Volver al menú</a>
+
+        <a class="btn btn-success" href="@Url.Action("PaginaAgregarCalculoNomina")">Agregar nuevo cálculo de nomina</a>
+    </div>
+    
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Nombre de cálculo</th>
+                <th>Fecha del cálculo</th>
+                <th>Filas afectadas</th>
+                <th>Status</th>
+                <th>Ver detalle</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model.Count() > 0)
+            {
+                foreach (var registro in Model)
+                {
+                    <tr>
+                        <td>@registro.NombreCalculo</td>
+                        <td>@registro.FechaCalculo</td>
+                        <td>@registro.FilasAfectadas</td>
+                        <td class="@(registro.Estado ? "text-success" : "text-muted")">@(registro.Estado ? "Procesado" : "En proceso")</td>
+                        <td><a class="btn btn-secondary"
+                               href="@Url.Action("DetalleNomina", "HistorialNominas", new { id = registro.ID })">
+                            Ver Detalles</a>
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td>No hay registros para mostrar</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hiram\\Documents\\Curriculums\\CalculoDeNomina\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4B2A5C4B-9C18-4A72-B41C-E96AAE6B8137}|CalculoDeNomina\\CalculoDeNomina.csproj|c:\\users\\hiram\\documents\\curriculums\\calculodenomina\\calculodenomina\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B2A5C4B-9C18-4A72-B41C-E96AAE6B8137}|CalculoDeNomina\\CalculoDeNomina.csproj|solutionrelative:calculodenomina\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B2A5C4B-9C18-4A72-B41C-E96AAE6B8137}|CalculoDeNomina\\CalculoDeNomina.csproj|C:\\Users\\hiram\\Documents\\Curriculums\\CalculoDeNomina\\calculodenomina\\views\\historialnominas\\historialnominas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B2A5C4B-9C18-4A72-B41C-E96AAE6B8137}|CalculoDeNomina\\CalculoDeNomina.csproj|solutionrelative:calculodenomina\\views\\historialnominas\\historialnominas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B2A5C4B-9C18-4A72-B41C-E96AAE6B8137}|CalculoDeNomina\\CalculoDeNomina.csproj|C:\\Users\\hiram\\Documents\\Curriculums\\CalculoDeNomina\\calculodenomina\\views\\historialnominas\\agregarcalculodenomina.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B2A5C4B-9C18-4A72-B41C-E96AAE6B8137}|CalculoDeNomina\\CalculoDeNomina.csproj|solutionrelative:calculodenomina\\views\\historialnominas\\agregarcalculodenomina.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B2A5C4B-9C18-4A72-B41C-E96AAE6B8137}|CalculoDeNomina\\CalculoDeNomina.csproj|C:\\Users\\hiram\\Documents\\Curriculums\\CalculoDeNomina\\calculodenomina\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B2A5C4B-9C18-4A72-B41C-E96AAE6B8137}|CalculoDeNomina\\CalculoDeNomina.csproj|solutionrelative:calculodenomina\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B2A5C4B-9C18-4A72-B41C-E96AAE6B8137}|CalculoDeNomina\\CalculoDeNomina.csproj|C:\\Users\\hiram\\Documents\\Curriculums\\CalculoDeNomina\\calculodenomina\\views\\historialnominas\\detallenomina.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B2A5C4B-9C18-4A72-B41C-E96AAE6B8137}|CalculoDeNomina\\CalculoDeNomina.csproj|solutionrelative:calculodenomina\\views\\historialnominas\\detallenomina.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\hiram\\Documents\\Curriculums\\CalculoDeNomina\\CalculoDeNomina\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "CalculoDeNomina\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\hiram\\Documents\\Curriculums\\CalculoDeNomina\\CalculoDeNomina\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "CalculoDeNomina\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T20:10:24.461Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AgregarCalculoDeNomina.cshtml",
+              "DocumentMoniker": "C:\\Users\\hiram\\Documents\\Curriculums\\CalculoDeNomina\\CalculoDeNomina\\Views\\HistorialNominas\\AgregarCalculoDeNomina.cshtml",
+              "RelativeDocumentMoniker": "CalculoDeNomina\\Views\\HistorialNominas\\AgregarCalculoDeNomina.cshtml",
+              "ToolTip": "C:\\Users\\hiram\\Documents\\Curriculums\\CalculoDeNomina\\CalculoDeNomina\\Views\\HistorialNominas\\AgregarCalculoDeNomina.cshtml",
+              "RelativeToolTip": "CalculoDeNomina\\Views\\HistorialNominas\\AgregarCalculoDeNomina.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-13T07:55:41.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\hiram\\Documents\\Curriculums\\CalculoDeNomina\\CalculoDeNomina\\Views\\Login\\Login.cshtml",
+              "RelativeDocumentMoniker": "CalculoDeNomina\\Views\\Login\\Login.cshtml",
+              "ToolTip": "C:\\Users\\hiram\\Documents\\Curriculums\\CalculoDeNomina\\CalculoDeNomina\\Views\\Login\\Login.cshtml",
+              "RelativeToolTip": "CalculoDeNomina\\Views\\Login\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-13T07:31:31.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HistorialNominas.cshtml",
+              "DocumentMoniker": "C:\\Users\\hiram\\Documents\\Curriculums\\CalculoDeNomina\\CalculoDeNomina\\Views\\HistorialNominas\\HistorialNominas.cshtml",
+              "RelativeDocumentMoniker": "CalculoDeNomina\\Views\\HistorialNominas\\HistorialNominas.cshtml",
+              "ToolTip": "C:\\Users\\hiram\\Documents\\Curriculums\\CalculoDeNomina\\CalculoDeNomina\\Views\\HistorialNominas\\HistorialNominas.cshtml",
+              "RelativeToolTip": "CalculoDeNomina\\Views\\HistorialNominas\\HistorialNominas.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACUAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-12T05:19:25.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DetalleNomina.cshtml",
+              "DocumentMoniker": "C:\\Users\\hiram\\Documents\\Curriculums\\CalculoDeNomina\\CalculoDeNomina\\Views\\HistorialNominas\\DetalleNomina.cshtml",
+              "RelativeDocumentMoniker": "CalculoDeNomina\\Views\\HistorialNominas\\DetalleNomina.cshtml",
+              "ToolTip": "C:\\Users\\hiram\\Documents\\Curriculums\\CalculoDeNomina\\CalculoDeNomina\\Views\\HistorialNominas\\DetalleNomina.cshtml",
+              "RelativeToolTip": "CalculoDeNomina\\Views\\HistorialNominas\\DetalleNomina.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-12T06:47:38.533Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

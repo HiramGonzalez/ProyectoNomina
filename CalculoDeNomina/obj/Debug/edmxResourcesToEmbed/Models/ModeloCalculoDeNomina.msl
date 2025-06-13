@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CalculosDeNominaModelStoreContainer" CdmEntityContainer="CalculosDeNominaEntities">
+    <EntitySetMapping Name="CalculosDeNomina">
+      <EntityTypeMapping TypeName="CalculosDeNominaModel.CalculosDeNomina">
+        <MappingFragment StoreEntitySet="CalculosDeNomina">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NombreCalculo" ColumnName="NombreCalculo" />
+          <ScalarProperty Name="FechaCalculo" ColumnName="FechaCalculo" />
+          <ScalarProperty Name="FilasAfectadas" ColumnName="FilasAfectadas" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="ArchivoNomina" ColumnName="ArchivoNomina" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Usuario">
+      <EntityTypeMapping TypeName="CalculosDeNominaModel.Usuario">
+        <MappingFragment StoreEntitySet="Usuario">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NombreUsuario" ColumnName="NombreUsuario" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
