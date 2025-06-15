@@ -34,6 +34,7 @@ namespace CalculoDeNomina.Controllers
                 if(registro == null) return HttpNotFound();
 
                 ViewBag.TablaExcel = GenerarHTMLArchivoExcel(registro.ArchivoNomina);
+                ViewBag.MostrarModal = false;
 
                 return View(registro);
             }
@@ -113,6 +114,16 @@ namespace CalculoDeNomina.Controllers
             }
         }
 
+
+        // Metodo que se usa para el envio de correos
+        [HttpPost]
+        public ActionResult EnviarCorreo()
+        {
+
+
+            return Json(new { ok = false });
+        }
+
         // Metodo que se usa para generar el HTML para mostrar el contenido del archivo Excel
         private string GenerarHTMLArchivoExcel(byte[] archivo)
         {
@@ -156,6 +167,17 @@ namespace CalculoDeNomina.Controllers
             return archivoBytes;
         }
 
+        [HttpPost]
+        public ActionResult MostrarModalCorreo()
+        {
+            return Json(new { ok = true });
+        }
+
+        [HttpPost]
+        public ActionResult CerrarModalCorreo()
+        {
+            return Json(new { ok = false });
+        }
 
 
         public ActionResult VolverAlMenu()
