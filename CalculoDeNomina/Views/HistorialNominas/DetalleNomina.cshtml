@@ -78,7 +78,15 @@
                 </div>
 
                 <div class="modal-body text-start">
-                    <form class="form-check" action="/" method="post">
+                    <form class="form-check" action="@Url.Action("EnviarCorreo", "HistorialNominas")" method="post" enctype="multipart/form-data">
+                        <input type="hidden" name="asunto" value="@Model.NombreCalculo" />
+                        <input type="text" name="fechaCalculo" value="@Model.FechaCalculo" hidden />
+                        <input type="text" name="status" value="@Model.Estado" hidden />
+                        <input type="text" name="cantidadFilas" value="@Model.FilasAfectadas" hidden />
+                        <input type="text" name="tablaExcel" value="@Html.Raw(ViewBag.TablaExcel)" hidden />
+                        <input type="text" name="id" value="@Model.ID" hidden />
+
+
                         <div class="form-group" width="100%">
                             <label for="correo-destinatario" class="col-form-label">Destinatario:</label>
                             <input class="form-control" type="text" name="correoDestinatario" value="" placeholder="ejemplo@correo.com" />
@@ -91,12 +99,12 @@
 
                         <div class="form-group" width="100%">
                             <label for="contenido-correo" class="col-form-label">Mensaje adicional:</label>
-                            <textarea class="form-control mb-2" placeholder="Escriba aquí si quiere agregar un mensaje adicional. Los datos de la nómina y el archvio adjunto ya se incluyen en el cuerpo del correo."></textarea>
+                            <textarea class="form-control mb-2" name="mensaje" placeholder="Escriba aquí si quiere agregar un mensaje adicional. Los datos de la nómina y el archvio adjunto ya se incluyen en el cuerpo del correo."></textarea>
                         </div>
 
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary btnCerrarModal" data-dismiss="modal">Cerrar</button>
-                            <button type="submit" class="btn btn-primary">Enivar Correo</button>
+                            <button type="submit" class="btn btn-primary">Enviar Correo</button>
                         </div>
                     </form>
                 </div>
@@ -130,14 +138,5 @@
             }
         });
     });
+
 </script>
-
-
-@*<script>
-    $(#modalCorreo).ready(function () {
-    var mostrar = '@ViewBag.MostrarModal';
-    if (mostrar === 'True') {
-        $('#modalCorreo').modal('show');
-    }
-});
-</script>*@
